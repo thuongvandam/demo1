@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+    }
+
+    body{
+        font-size: 1.6rem;
+        font-family: serif;
+        background-color: #fff;
+    }
+
+    :root{
+        --greeen_color_1:#C2EFD4;
+        --green_color_2:#267144;
+        --green_color_3:#267D49;
+
+    }
+
+    .header{
+        background-color: var(--greeen_color_1);
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .menu-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+
+
+    .bag-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 5rem;
+        margin-top: 0.3rem;
+        justify-content: center;
+        align-items: center;
+
+    }
