@@ -9,7 +9,6 @@ html{
     body{
         font-size: 1.6rem;
         font-family: serif;
-        background-color: var(--greeen_color_1);
         height: 100vh;
     }
 
@@ -18,9 +17,14 @@ html{
         --green_color_2:#267144;
         --green_color_3:#267D49;
         --green_color_4:#224F34;
-
+        --green_color_5:#10FF70;
     }
 /* --------haeder---------- */
+
+.header{
+    background-color: var(--greeen_color_1);
+    
+}
 
     .navbar{
         display: flex;
@@ -30,17 +34,22 @@ html{
     }
 
     .menu{
+        display: flex;
         margin-top: 0.5rem;
         margin-bottom: 1.9rem;
+       justify-content: center;
+        align-items: center;
+
     }
 
     .menu-header{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 3rem;
         font-size: 1rem;
         margin-top: 1.6rem;
+        color: var(--green_color_4);
     }
    
     
@@ -48,17 +57,36 @@ html{
     .bag-icon{
         width: 1.5rem;
         height: 1.5rem;
-        margin-left: 5rem;
+        margin-left: 10rem;
         margin-bottom: 0.3rem;
-        justify-content: center;
-        align-items: center;
         
+        
+    }
+
+    .login-header{
+        margin-bottom: 0.2rem;
+        margin-left: 5rem;
+    }
+
+    .login{
+        background-color: var(--greeen_color_1);
+       padding: 0.8rem 2rem;
+       color: var(--green_color_4);
+       border-color: #224F34;
+       font-size: 1rem;
     }
 
     /* --------main---------- */
 
+    .main{
+        display: flex;
+        justify-content: space-around;
+        margin-top: rem;
+        background-color: var(--greeen_color_1);
+    }
+    
     .main-left{
-        margin-left: 5rem;
+        margin-top: 2rem;
     }
 
     .text-main{
@@ -84,3 +112,38 @@ html{
         border-radius: 4px;
         cursor: pointer;
     }
+
+    .main-right{
+        margin-top: 2rem;
+    }
+
+    .image-thumbnail{
+        background-color: var(--green_color_3);
+        border-radius: 30% 5% 30% 10%;
+       object-fit: cover;
+       height: 25rem;
+    }
+
+    /* -----------main 2---------- */
+
+    .main-2{
+        background-color: #fff;
+        margin-top: 3rem;
+    }
+
+    .text-main2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--green_color_4);
+        font-size: 4rem;
+    }
+
+    .p-main2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--green_color_4);
+        margin-top: 3rem;
+    }
+    
