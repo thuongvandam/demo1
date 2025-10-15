@@ -9,25 +9,29 @@ html{
     body{
         font-size: 1.6rem;
         font-family: serif;
-        background-color: #fff;
+        background-color: var(--greeen_color_1);
+        height: 100vh;
     }
 
     :root{
-        --greeen_color_1:#C2EFD4;
+        --greeen_color_1:#c2efd4;
         --green_color_2:#267144;
         --green_color_3:#267D49;
+        --green_color_4:#224F34;
 
     }
-
-    .header{
-        background-color: var(--greeen_color_1);
-    }
+/* --------haeder---------- */
 
     .navbar{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem;
+        
+    }
+
+    .menu{
+        margin-top: 0.5rem;
+        margin-bottom: 1.9rem;
     }
 
     .menu-header{
@@ -36,15 +40,47 @@ html{
         align-items: center;
         gap: 1rem;
         font-size: 1rem;
+        margin-top: 1.6rem;
     }
-
+   
+    
 
     .bag-icon{
         width: 1.5rem;
         height: 1.5rem;
         margin-left: 5rem;
-        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
         justify-content: center;
         align-items: center;
+        
+    }
 
+    /* --------main---------- */
+
+    .main-left{
+        margin-left: 5rem;
+    }
+
+    .text-main{
+        width: 18rem;
+        height: 3rem;
+        margin-bottom: 7rem;
+        color: var(--green_color_4);
+        font-size: 2.5rem;
+        font-weight:550;
+    }
+
+    .text-p{
+        width: 22rem;
+        color: var(--green_color_3);
+        font-weight: 300;
+    }
+
+    .btn-explore{
+        margin-top: 4rem;
+        background-color: var(--green_color_4);
+        color: #fff;
+        padding: 0.8rem 2rem;
+        border-radius: 4px;
+        cursor: pointer;
     }
