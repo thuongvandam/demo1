@@ -146,4 +146,52 @@ html{
         color: var(--green_color_4);
         margin-top: 3rem;
     }
+
+    .picture-main-2{
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-around;
+    }
     
+
+    .image-item-main-2{
+        background-color: var(--greeen_color_1);
+    }
+
+    .money-all{
+        justify-content: center;
+        margin-top: 2rem;
+        
+    }
+
+    .p-item{
+    margin-left: 4rem;
+   
+    }
+
+    .tach{
+        width: 0.1rem;
+        height: 2rem;
+        background-color: black;
+    }
+
+    .money{
+        display: flex;
+        gap: 5rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .button-see{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .see{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        color: #224F34;
+    }
