@@ -189,9 +189,59 @@ html{
         text-align: center;
     }
 
-    .see{
+    .button-see{
         display: flex;
         justify-content: center;
         background-color: white;
         color: #224F34;
+        width: 12rem;
+        height: 3rem;
+        margin-top: 2rem;
+        padding: 1rem 1rem;
+        font-size: 1rem;
     }
+
+    /* ---------main 3 product----------- */
+
+    .main-product{
+       margin-top: 3rem;
+    }
+
+    .text-product{
+        display: flex;
+        justify-content: center;
+        color: var(--green_color_4);
+        font-size: 3rem;
+    }
+
+    .menu-product{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-product-btn{
+        display: flex;
+        gap: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    /* ---------------picture main3------------- */
+
+    .picture-main3-product{
+        display: flex;
+       justify-content: space-around;
+       gap: 0.5rem;
+    }
+
+    .text-picture-product{
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+
+    .money-product{
+        display: flex;
+   font-size: 1.4rem;
+   justify-content: space-around;
+   margin-top: 1rem;
+}
