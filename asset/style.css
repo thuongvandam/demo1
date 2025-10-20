@@ -81,7 +81,6 @@ html{
     .main{
         display: flex;
         justify-content: space-around;
-        margin-top: rem;
         background-color: var(--greeen_color_1);
     }
     
@@ -122,6 +121,7 @@ html{
         border-radius: 30% 5% 30% 10%;
        object-fit: cover;
        height: 25rem;
+       margin-bottom: 4rem;
     }
 
     /* -----------main 2---------- */
@@ -253,13 +253,22 @@ html{
     display: flex;
     margin: 1rem 1rem;
     gap: 2rem;
+    justify-content: space-around;
 }
+
+.green-right{
+    margin-top: 3rem;
+    display:block;
+}
+
 .text-green-right{
     color: var(--green_color_4);
     font-size: 3rem;
 }
 .p-green-right{
     color: var(--green_color_2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .block-white{
@@ -285,4 +294,42 @@ html{
     font-size: 1rem;
     display: flex;
     justify-content: space-around;
+}
+
+.buy{
+    background-color: var(--green_color_4);
+    color: #fff;
+    width: 12rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+/* -------------------------------design------------------------ */
+
+.text-design{
+    color: var(--green_color_4);
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.p-design{
+    color: var(--green_color_4);
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-design{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.img1-design-btn{
+    height: 566px;
+    width: 430px;
+background-color: var(--greeen_color_1);
 }
