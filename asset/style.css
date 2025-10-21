@@ -310,8 +310,9 @@ html{
     color: var(--green_color_4);
     margin-top: 6rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: 3rem;
+    margin-left: 2rem;
 }
 
 .p-design{
@@ -332,4 +333,65 @@ html{
     height: 566px;
     width: 430px;
 background-color: var(--greeen_color_1);
+}
+
+.text-picture-design{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.p-picture-design{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.feedback{
+    color: var(--green_color_4);
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.cmt-feedback{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.cmt{
+    padding: 1rem;
+}
+
+.cmt:hover{
+    background-color: var(--greeen_color_1);
+}
+
+.ctm-btn{
+    color: var(--green_color_4);
+}
+
+.button-go{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.go{
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    color: var(--green_color_4);
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.go:hover{
+    background-color: var(--greeen_color_1);
 }
