@@ -395,3 +395,23 @@ background-color: var(--greeen_color_1);
 .go:hover{
     background-color: var(--greeen_color_1);
 }
+
+/* -------------------------footer----------------- */
+
+.footer{
+    background-color: var(--green_color_4);
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
+
+.text-footer{
+    color: #fff;
+}
+
+.text-center-footer{
+    color: #fff;
+    display:grid;
+grid-row: 3rem;
+}
